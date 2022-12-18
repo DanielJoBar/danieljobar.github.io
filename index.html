@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="./images/icono.ico">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="./JS/ir-arriba.js"></script>
+</head>
+<body>
+    <div class="wrapper1">
+        <div id="hero1">
+            <video autoplay muted loop id="myVideo">
+                <source src=".mp4" type="video/mp4">
+            </video>
+            <div class="titulo">
+                Tom Clancy's Rainbow Six Siege 
+            </div>
+            <div class="grid">
+                <a href="#intro">
+                    <div id="opcion1" class="opciones">
+                    INTRODUCCIÓN
+                    </div>
+                </a>
+                <a href="#mapas">
+                    <div id="opcion2"class="opciones">
+                    MAPAS
+                    </div>
+                </a>
+                <a href="#modos">
+                    <div id="opcion3"class="opciones">
+                    MODOS DE JUEGO
+                    </div>
+                </a>
+                <a href="#contacto">
+                    <div id="opcion4"class="opciones">
+                        CONTACTO
+                    </div>
+                </a>
+            </div>
+        </div>
+        <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+        <!--ESTA ERA LA BARRA DE NAVEGACION PERO SE CAMBIÓ POR LA ACTUAL-->
+        <!--<nav>
+            <div class="topnav" id="myTopnav">
+                <a href="#">Inicio</a>
+                <a href="#intro">Introducción</a>
+                <a href="#ideas">Ideas</a>
+                <a href="#autores">Autores</a>
+                <a href="#galería">Galería</a>
+                <a href="#contacto">Contacto</a>
+                <!- Este último vínculo es para el icono de menú amburguesa ->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>-->
+    </div>
+    <div class="wrapper2">
+            <div id="intro">
+                    ¿Qué es Rainbow Six Siege?
+            </div>
+            <div class="texto">
+                <br> Es un shooter(videojuego de disparos) táctico por equipos(atacantes y defensores) en  línea desarrollado por  Ubisoft, 
+                lanzado el 1 de diciembre de 2015 .
+                El juego pone mucho énfasis en la destrucción del entorno y en la cooperación entre los jugadores. Dónde el jugador puede adaptar su entorno en cada partida.
+            </br><br>
+                Cada equipo se compone de 5 jugadores quiénes elegirán un agente con habilidades especiales cada uno. </br>
+            </div>
+            <div id="modos">
+                <div class="titulo">
+                    Modos de juego
+                </div>
+                </div>
+                <div class="grid3">
+                    <div class="col3">
+                        <div class="card hidden img">
+                            <img src="./images/asegurarZona.jpg" alt="Asegurar la zona">
+                            <div class="hidden">
+                                <p>Los atacantes deben localizar la habitación del objetivo y mantener la posición dentro de la área donde se encuentre por lo menos 10 segundos consecutivos.</p><p> Por otro lado, el equipo de defensores debe evitar que se bloquee la sala y para esto se debe mantener una presencia dentro de la misma habitación.</p>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <h3><b>Asegurar la zona</b></h3>
+                        </div>
+                    </div>
+                    <div class="col3">
+                        <div class="card hidden img">
+                            <img src="./images/Bomb.jpg" alt="Bombas">
+                            <div class="hidden">
+                                <p>La función de los defensores  es impedir que los Atacantes coloquen el defusor en cualquiera de las bombas.</p>
+                                <p>En caso de que los Atacantes consigan entrar por la fuerza en el emplazamiento de la bomba y colocar el objetivo, los Defensores deben retomar el emplazamiento de la bomba y eliminar el defusor antes de que se agote el temporizador de 45 segundos.</p>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <h3><b>Bombas</b></h3>
+                        </div>
+                    </div>
+                    <div class="col3">
+                        <div class="card hidden img">
+                            <img src="./images/Hostage.jpg" alt="Rehén">
+                            <div class="hidden">
+                                <p> Los defensores deben proteger al rehén de los atacantes.
+                                Los atacantes ganan si extraen exitosamente al rehén o matan a los agentes defensores. </p>
+                                <p>El equipo defensor gana si el tiempo se agota, el rehén es asesinado por el equipo atacante, o si matan a todos los miembros del equipo atacante.</p>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <h3><b>Rehén</b></h3>
+                        </div>
+                    </div>
+            </div>
+            <div id="mapas">
+                <div class="titulo">
+                    Mapas
+                </div>
+            </div>
+                <div class="grid2">
+                    <div class="col4">
+                        <div class="card img">
+                            <img src="./images/Casa.jpg" alt="Mapa de Casa">
+                        </div>
+                         <!--<div class="card vid">
+                           <iframe class="responsive-iframe" src="https://youtu.be/poa_QBvtIBA" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>-->
+                        <div class="container">
+                            <h3><b>Casa</b></h3>
+                        </div>
+                    </div>
+                    <div class="col4">
+                        <div class="card img">
+                            <img src="./images/Nighthaven_labs_screen.jpg" alt="Mapa de Nighthaven_labs">
+                        </div>
+                        <div class="container">
+                            <h3><b>Laboratorios Nighthaven</b></h3>
+                        </div>
+                    </div>
+                    <div class="col4">
+                        <div class="card img">
+                            <img src="./images/Estadio.jpg" alt="Mapa Estadio">
+                        </div>
+                        <div class="container">
+                            <h3><b>Estadio</b></h3>
+                        </div>
+                    </div>
+                    <div class="col4">
+                        <div class="card img">
+                            <img src="./images/Banco.jpg" alt="Mapa de Banco">
+                        </div>
+                        <div class="container">
+                            <h3><b>Banco</b></h3>
+                        </div>
+                    </div>
+                    <div class="col4">
+                        <div class="card img">
+                            <img src="./images/AvionPresidencial.jpg" alt="Mapa de Avion">
+                        </div>
+                        <div class="container">
+                            <h3><b>Avion Presidencial</b></h3>
+                        </div>
+                    </div>
+                    <div class="col4">
+                        <div class="card img">
+                            <img src="./images/BaseDeHereford.jpg" alt="Mapa de Base de Hereford">
+                        </div>
+                        <div class="container">
+                            <h3><b>Base de Hereford</b></h3>
+                        </div>
+                    </div>
+                    <div class="col4">
+                        <div class="card img">
+                            <img src="./images/CafeDostoyevsky.jpg" alt="Mapa de CafeDostoyevsky">
+                        </div>
+                        <div class="container">
+                            <h3><b>Café Dostoyevsky</b></h3>
+                        </div>
+                    </div>
+                    <div class="col4">
+                        <div class="card img">
+                            <img src="./images/Canal.jpg" alt="Mapa de Canal">
+                        </div>
+                        <div class="container">
+                            <h3><b>Canal</b></h3>
+                        </div>
+                    </div>
+                    <div class="col4">
+                        <div class="card img">
+                            <img src="./images/Chalet.jpg" alt="Mapa de Chalet">
+                        </div>
+                        <div class="container">
+                            <h3><b>Chalet</b></h3>
+                        </div>
+                    </div>
+                    <div class="col4">
+                        <div class="card img">
+                            <img src="./images/Club.jpg" alt="Mapa de Club">
+                        </div>
+                        <div class="container">
+                            <h3><b>Club</b></h3>
+                        </div>
+                    </div>
+                    <div class="col4">
+                        <div class="card img">
+                            <img src="./images/CombateCercano.jpg" alt="Mapa de CombateCercano">
+                        </div>
+                        <div class="container">
+                            <h3><b>Combate Cercano</b></h3>
+                        </div>
+                    </div>
+                    <div class="col4">
+                        <div class="card img">
+                            <img src="./images/Consulado.jpg" alt="Mapa de Consulado">
+                        </div>
+                        <div class="container">
+                            <h3><b>Consulado</b></h3>
+                        </div>
+                    </div>
+                    <div class="col4">
+                        <div class="card img">
+                            <img src="./images/Favela.jpg" alt="Mapa de Favela">
+                        </div>
+                        <div class="container">
+                            <h3><b>Favela</b></h3>
+                        </div>
+                    </div>
+                    <div class="col4">
+                        <div class="card img">
+                            <img src="./images/Fortaleza.jpg "alt="Mapa de Fortaleza">
+                        </div>
+                        <div class="container">
+                            <h3><b>Fortaleza</b></h3>
+                        </div>
+                    </div>
+                    <div class="col4">
+                        <div class="card img">
+                            <img src="./images/Frontera.jpg" alt="Mapa de Frontera">
+                        </div>
+                        <div class="container">
+                            <h3><b>Frontera</b></h3>
+                        </div>
+                    </div>
+                    <div class="col4">
+                        <div class="card img">
+                            <img src="./images/Litoral.jpg" alt="Mapa de Litoral">
+                        </div>
+                        <div class="container">
+                            <h3><b>Litoral</b></h3>
+                        </div>
+                    </div>
+                    <div class="col4">
+                        <div class="card img">
+                            <img src="./images/Oregon.jpg" alt="Mapa de Oregon">
+                        </div>
+                        <div class="container">
+                            <h3><b>Oregón</b></h3>
+                        </div>
+                    </div>
+                    <div class="col4">
+                        <div class="card img">
+                            <img src="./images/ParqueAtracciones.jpg" alt="Mapa de ParqueAtracciones">
+                        </div>
+                        <div class="container">
+                            <h3><b>Parque de Atracciones</b></h3>
+                        </div>
+                    </div>
+                    <div class="col4">
+                        <div class="card img">
+                            <img src="./images/PraderasEsmeralda.jpg" alt="Mapa de PraderasEsmeralda">
+                        </div>
+                        <div class="container">
+                            <h3><b>Praderas Esmeralda</b></h3>
+                        </div>
+                    </div>
+                    <div class="col4">
+                        <div class="card img">
+                            <img src="./images/Rascacielos.jpg" alt="Mapa de Rascacielos">
+                        </div>
+                        <div class="container">
+                            <h3><b>Rascacielos</b></h3>
+                        </div>
+                    </div>
+                    <div class="col4">
+                        <div class="card img">
+                            <img src="./images/TerritorioRemoto.jpg" alt="Mapa de TerritorioRemoto">
+                        </div>
+                        <div class="container">
+                            <h3><b>Territorio Remoto</b></h3>
+                        </div>
+                    </div>
+                    <div class="col4">
+                        <div class="card img">
+                            <img src="./images/Torre.jpg" alt="Mapa de Torre">
+                        </div>
+                        <div class="container">
+                            <h3><b>Torre</b></h3>
+                        </div>
+                    </div>
+                    <div class="col4">
+                        <div class="card img">
+                            <img src="./images/Villa.jpg" alt="Mapa de Villa">
+                        </div>
+                        <div class="container">
+                            <h3><b>Villa</b></h3>
+                        </div>
+                    </div>
+                    <div class="col4">
+                        <div class="card img">
+                            <img src="./images/Yate.jpg" alt="Mapa de Yate">
+                        </div>
+                        <div class="container">
+                            <h3><b>Yate</b></h3>
+                        </div>
+                    </div>
+                </div>
+                <div id="contacto">
+                    <div class="titulo">
+                        Contacto
+                    </div>
+                </div>
+                    <div class="grid3">
+                        <div class="col2">
+                            <div class="contendor">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d23833.646237590456!2d-73.60467586891157!3d45.52764801584988!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa2498aab1608c9fc!2sUbisoft%20Montreal!5e0!3m2!1ses!2ses!4v1671230468267!5m2!1ses!2ses"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid5">
+                        <a href="#intro">
+                            <div id="opcion1" class="opciones">
+                            INTRODUCCIÓN
+                            </div>
+                        </a>
+                        <a href="#mapas">
+                            <div id="opcion2"class="opciones">
+                            MAPAS
+                            </div>
+                        </a>
+                        <a href="#modos">
+                            <div id="opcion3"class="opciones">
+                            MODOS DE JUEGO
+                            </div>
+                        </a>
+                        <a href="#contacto">
+                            <div id="opcion4"class="opciones">
+                                CONTACTO
+                            </div>
+                        </a>
+                    </div>
+        </div>
+</body>
+</html>
